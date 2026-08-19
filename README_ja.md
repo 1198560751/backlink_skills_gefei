@@ -6,7 +6,7 @@
 
 掲載により引用、参照トラフィック、バックリンクを得られる場合がありますが、リンク掲載、follow 属性、承認、インデックス、流入、順位向上は**保証しません**。
 
-**言語：** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**言語：** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## 対応範囲
 
@@ -37,18 +37,18 @@
 
 ## 使い方
 
-`submit-product-directories-open-source/` をエージェントの Skills ディレクトリへコピーするか、フォルダーを直接指定してください。
+`submit-product-directories-v2-quality/` をエージェントの Skills ディレクトリへコピーするか、フォルダーを直接指定してください。
 
 ```text
-$submit-product-directories-open-source を使ってディレクトリ URL を確認し、
+$submit-product-directories-v2-quality を使ってディレクトリ URL を確認し、
 製品投稿キャンペーンを準備してください。まず適格性と認証を確認し、
 許可なしに公開、アカウント作成、規約同意、支払いをしないでください。
 監査可能な記録と手動認証キューを保存してください。
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` は信頼できる受領証拠、`published` は公開済みの非プレビューページを必要とします。クリックやリダイレクトだけで成功と判断してはいけません。

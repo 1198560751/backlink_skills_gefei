@@ -6,7 +6,7 @@
 
 डायरेक्टरी लिस्टिंग से उल्लेख, रेफ़रल ट्रैफ़िक या बैकलिंक मिल सकते हैं, पर यह प्रोजेक्ट लिंक प्लेसमेंट, follow गुण, स्वीकृति, इंडेक्सिंग, ट्रैफ़िक या रैंकिंग सुधार की **गारंटी नहीं देता**।
 
-**भाषाएँ:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**भाषाएँ:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## दायरा
 
@@ -37,18 +37,18 @@
 
 ## उपयोग
 
-`submit-product-directories-open-source/` को एजेंट की Skills डायरेक्टरी में कॉपी करें या फ़ोल्डर को सीधे संदर्भित करें।
+`submit-product-directories-v2-quality/` को एजेंट की Skills डायरेक्टरी में कॉपी करें या फ़ोल्डर को सीधे संदर्भित करें।
 
 ```text
-$submit-product-directories-open-source से डायरेक्टरी URL की समीक्षा करके
+$submit-product-directories-v2-quality से डायरेक्टरी URL की समीक्षा करके
 प्रोडक्ट सबमिशन अभियान तैयार करें। पहले पात्रता और सत्यापन जाँचें। अनुमति के
 बिना प्रकाशित, अकाउंट निर्मित, समझौता स्वीकार या भुगतान न करें। ऑडिट योग्य
 रिकॉर्ड और एक मैनुअल सत्यापन कतार सहेजें।
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` के लिए विश्वसनीय रसीद और `published` के लिए सार्वजनिक गैर-प्रीव्यू पेज चाहिए। केवल क्लिक या रीडायरेक्ट से सफलता न मानें।

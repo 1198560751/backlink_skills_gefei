@@ -6,7 +6,7 @@
 
 Dizin kaydı atıf, yönlendirme trafiği veya backlink sağlayabilir; ancak proje bağlantı yerleşimi, follow niteliği, onay, indeksleme, trafik ya da sıralama artışını **garanti etmez**.
 
-**Diller:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Diller:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Kapsam
 
@@ -37,18 +37,18 @@ Dizin kaydı atıf, yönlendirme trafiği veya backlink sağlayabilir; ancak pro
 
 ## Kullanım
 
-`submit-product-directories-open-source/` klasörünü ajanın Skills dizinine kopyalayın veya doğrudan klasöre başvurun.
+`submit-product-directories-v2-quality/` klasörünü ajanın Skills dizinine kopyalayın veya doğrudan klasöre başvurun.
 
 ```text
-$submit-product-directories-open-source ile dizin URL'lerini inceleyip ürün
+$submit-product-directories-v2-quality ile dizin URL'lerini inceleyip ürün
 gönderim kampanyası hazırlayın. Önce uygunluk ve doğrulamayı denetleyin.
 Yetkisiz yayın, hesap, sözleşme veya ödeme yapmayın. Denetlenebilir kayıt ile
 tek bir manuel doğrulama kuyruğu saklayın.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` güvenilir alındı kanıtı, `published` ise herkese açık önizleme dışı sayfa gerektirir. Tıklama veya yönlendirmeyi başarı saymayın.

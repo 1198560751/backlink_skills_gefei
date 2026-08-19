@@ -6,7 +6,7 @@ Ein evidenzbasierter, fortsetzbarer Workflow zum Einreichen von Produkten, Softw
 
 Verzeichniseinträge können Erwähnungen, Referral-Traffic oder Backlinks erzeugen. Dieses Projekt **garantiert jedoch nicht** die Platzierung, follow-Attribute, Freigabe, Indexierung, Traffic oder Rankingverbesserungen.
 
-**Sprachen:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Sprachen:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Umfang
 
@@ -37,18 +37,18 @@ Verzeichniseinträge können Erwähnungen, Referral-Traffic oder Backlinks erzeu
 
 ## Verwendung
 
-`submit-product-directories-open-source/` in das Skills-Verzeichnis des Agenten kopieren oder den Ordner direkt referenzieren.
+`submit-product-directories-v2-quality/` in das Skills-Verzeichnis des Agenten kopieren oder den Ordner direkt referenzieren.
 
 ```text
-Nutze $submit-product-directories-open-source, um diese Verzeichnis-URLs zu prüfen
+Nutze $submit-product-directories-v2-quality, um diese Verzeichnis-URLs zu prüfen
 und eine Produktkampagne vorzubereiten. Prüfe zuerst Eignung und Verifizierung.
 Ohne Autorisierung nicht veröffentlichen, registrieren, zustimmen oder zahlen.
 Speichere ein auditierbares Protokoll und eine manuelle Prüfwarteschlange.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` braucht einen verlässlichen Empfangsnachweis; `published` eine öffentliche Nicht-Vorschauseite. Ein Klick oder Redirect beweist keinen Erfolg.

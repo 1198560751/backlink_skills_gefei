@@ -6,7 +6,7 @@ Um fluxo recuperável e baseado em evidências para enviar produtos, software, s
 
 Uma listagem pode gerar citações, tráfego de referência ou backlinks, mas o projeto **não garante** colocação do link, atributo follow, aprovação, indexação, tráfego ou melhoria de ranking.
 
-**Idiomas:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Idiomas:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Escopo
 
@@ -37,18 +37,18 @@ Uma listagem pode gerar citações, tráfego de referência ou backlinks, mas o 
 
 ## Uso
 
-Copie `submit-product-directories-open-source/` para a pasta Skills do agente ou referencie a pasta diretamente.
+Copie `submit-product-directories-v2-quality/` para a pasta Skills do agente ou referencie a pasta diretamente.
 
 ```text
-Use $submit-product-directories-open-source para revisar estes URLs e preparar
+Use $submit-product-directories-v2-quality para revisar estes URLs e preparar
 uma campanha. Primeiro verifique elegibilidade e autenticação. Não publique,
 crie contas, aceite acordos ou pague sem autorização. Salve um registro
 auditável e uma única fila de verificações manuais.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` exige comprovante confiável de recebimento; `published`, uma página pública que não seja prévia. Clique ou redirecionamento não prova sucesso.

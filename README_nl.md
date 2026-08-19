@@ -6,7 +6,7 @@ Een onderbouwde, hervatbare workflow voor het indienen van producten, software, 
 
 Een vermelding kan citaties, verwijzingsverkeer of backlinks opleveren, maar dit project **garandeert geen** linkplaatsing, follow-attribuut, goedkeuring, indexering, verkeer of betere ranking.
 
-**Talen:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Talen:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Reikwijdte
 
@@ -37,18 +37,18 @@ Een vermelding kan citaties, verwijzingsverkeer of backlinks opleveren, maar dit
 
 ## Gebruik
 
-Kopieer `submit-product-directories-open-source/` naar de Skills-map van de agent of verwijs rechtstreeks naar de map.
+Kopieer `submit-product-directories-v2-quality/` naar de Skills-map van de agent of verwijs rechtstreeks naar de map.
 
 ```text
-Gebruik $submit-product-directories-open-source om deze URL's te beoordelen en
+Gebruik $submit-product-directories-v2-quality om deze URL's te beoordelen en
 een campagne voor te bereiden. Controleer eerst geschiktheid en verificatie.
 Publiceer, registreer, accepteer of betaal niet zonder toestemming. Bewaar een
 controleerbaar verslag en één wachtrij voor handmatige verificaties.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` vereist betrouwbaar ontvangstbewijs; `published` een openbare pagina die geen preview is. Een klik of redirect bewijst geen succes.

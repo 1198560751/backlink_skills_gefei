@@ -6,7 +6,7 @@ Un workflow traçable et reprenable pour soumettre des produits, logiciels, star
 
 Une fiche peut générer des citations, du trafic référent ou des backlinks, mais ce projet **ne garantit pas** le placement d'un lien, l'attribut follow, l'approbation, l'indexation, le trafic ou le classement.
 
-**Langues :** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Langues :** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Périmètre
 
@@ -37,18 +37,18 @@ Une fiche peut générer des citations, du trafic référent ou des backlinks, m
 
 ## Utilisation
 
-Copiez `submit-product-directories-open-source/` dans le dossier Skills de l'agent ou référencez directement le dossier.
+Copiez `submit-product-directories-v2-quality/` dans le dossier Skills de l'agent ou référencez directement le dossier.
 
 ```text
-Utilise $submit-product-directories-open-source pour examiner ces URL et préparer
+Utilise $submit-product-directories-v2-quality pour examiner ces URL et préparer
 une campagne. Vérifie d'abord l'éligibilité et les validations. Ne publie pas,
 ne crée pas de compte, n'accepte pas d'accord et ne paie pas sans autorisation.
 Conserve un journal auditable et une file unique de validations manuelles.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` exige une preuve de réception fiable ; `published`, une page publique hors aperçu. Un clic ou une redirection ne prouve jamais le succès.

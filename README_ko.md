@@ -6,7 +6,7 @@
 
 디렉터리 등록은 인용, 추천 트래픽 또는 백링크를 만들 수 있지만 링크 게재, follow 속성, 승인, 색인, 트래픽 또는 순위 향상을 **보장하지 않습니다**.
 
-**언어:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**언어:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## 지원 범위
 
@@ -37,18 +37,18 @@
 
 ## 사용법
 
-`submit-product-directories-open-source/`를 에이전트의 Skills 폴더에 복사하거나 폴더를 직접 참조하세요.
+`submit-product-directories-v2-quality/`를 에이전트의 Skills 폴더에 복사하거나 폴더를 직접 참조하세요.
 
 ```text
-$submit-product-directories-open-source로 디렉터리 URL을 검토하고 제품 제출
+$submit-product-directories-v2-quality로 디렉터리 URL을 검토하고 제품 제출
 캠페인을 준비하세요. 먼저 적격성과 인증을 점검하고, 승인 없이 게시,
 계정 생성, 약관 동의 또는 결제를 하지 마세요. 감사 가능한 기록과
 수동 인증 대기열을 저장하세요.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted`에는 신뢰할 수 있는 접수 증거가, `published`에는 공개된 비미리보기 페이지가 필요합니다. 클릭이나 리디렉션만으로 성공을 추론하지 마세요.

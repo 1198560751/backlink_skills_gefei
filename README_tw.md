@@ -6,7 +6,7 @@
 
 目錄收錄可能帶來品牌引用、推薦流量或外鏈，但本專案**不保證**外鏈上線、連結屬性、審核通過、索引、流量或排名提升。
 
-**語言：** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**語言：** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## 支援內容
 
@@ -39,10 +39,10 @@
 
 ## 使用方法
 
-將 `submit-product-directories-open-source/` 複製到 Agent 支援的 Skills 目錄，或直接引用此資料夾：
+將 `submit-product-directories-v2-quality/` 複製到 Agent 支援的 Skills 目錄，或直接引用此資料夾：
 
 ```text
-使用 $submit-product-directories-open-source 檢查這批目錄 URL，
+使用 $submit-product-directories-v2-quality 檢查這批目錄 URL，
 並為我們的產品準備提交活動。先做資格與驗證掃描；未獲授權時，
 不要發布、建立帳號、接受協議或付款。保存可稽核記錄，並把人工
 驗證集中到一個佇列。
@@ -57,9 +57,9 @@ Agent 應先讀取 `SKILL.md`，再按需載入 `references/`。若沒有活動�
 不能只憑點擊、跳轉、表單清空、按鈕停用或沒有錯誤推斷成功。
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md --json
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md --json
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 ## 關於 Flaq.ai

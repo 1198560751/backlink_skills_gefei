@@ -6,7 +6,7 @@ Quy trình có bằng chứng và có thể tiếp tục để gửi sản phẩ
 
 Danh bạ có thể tạo trích dẫn, lưu lượng giới thiệu hoặc backlink, nhưng dự án **không bảo đảm** vị trí liên kết, thuộc tính follow, phê duyệt, lập chỉ mục, lưu lượng hay thứ hạng.
 
-**Ngôn ngữ:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Ngôn ngữ:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Phạm vi hỗ trợ
 
@@ -37,18 +37,18 @@ Danh bạ có thể tạo trích dẫn, lưu lượng giới thiệu hoặc back
 
 ## Cách dùng
 
-Sao chép `submit-product-directories-open-source/` vào thư mục Skills của tác nhân hoặc tham chiếu trực tiếp thư mục này.
+Sao chép `submit-product-directories-v2-quality/` vào thư mục Skills của tác nhân hoặc tham chiếu trực tiếp thư mục này.
 
 ```text
-Dùng $submit-product-directories-open-source để xem các URL danh bạ và chuẩn bị
+Dùng $submit-product-directories-v2-quality để xem các URL danh bạ và chuẩn bị
 chiến dịch gửi sản phẩm. Kiểm tra điều kiện và xác minh trước; không xuất bản,
 tạo tài khoản, chấp nhận thỏa thuận hay thanh toán khi chưa được ủy quyền.
 Lưu hồ sơ kiểm toán và một hàng đợi xác minh thủ công.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` cần bằng chứng tiếp nhận đáng tin cậy; `published` cần trang công khai không phải bản xem trước. Không suy ra thành công chỉ từ cú nhấp hoặc chuyển hướng.

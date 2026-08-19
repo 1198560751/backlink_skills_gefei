@@ -6,7 +6,7 @@ Un flusso recuperabile e basato su prove per inviare prodotti, software, startup
 
 Una directory può generare citazioni, traffico referral o backlink, ma il progetto **non garantisce** il posizionamento del link, l'attributo follow, l'approvazione, l'indicizzazione, il traffico o miglioramenti di ranking.
 
-**Lingue:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Lingue:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Ambito
 
@@ -37,18 +37,18 @@ Una directory può generare citazioni, traffico referral o backlink, ma il proge
 
 ## Utilizzo
 
-Copia `submit-product-directories-open-source/` nella directory Skills dell'agente o fai riferimento diretto alla cartella.
+Copia `submit-product-directories-v2-quality/` nella directory Skills dell'agente o fai riferimento diretto alla cartella.
 
 ```text
-Usa $submit-product-directories-open-source per esaminare questi URL e preparare
+Usa $submit-product-directories-v2-quality per esaminare questi URL e preparare
 una campagna. Controlla prima idoneità e verifiche. Non pubblicare, creare account,
 accettare accordi o pagare senza autorizzazione. Salva un registro verificabile
 e un'unica coda per le verifiche manuali.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` richiede una ricevuta affidabile; `published` una pagina pubblica non di anteprima. Un clic o un reindirizzamento non dimostrano il successo.

@@ -6,7 +6,7 @@
 
 การลงไดเรกทอรีอาจสร้างการอ้างอิง ทราฟฟิก หรือแบ็กลิงก์ แต่โครงการนี้**ไม่รับประกัน**การได้ลิงก์ คุณสมบัติ follow การอนุมัติ การทำดัชนี ทราฟฟิก หรืออันดับ
 
-**ภาษา:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**ภาษา:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## สิ่งที่รองรับ
 
@@ -37,18 +37,18 @@
 
 ## วิธีใช้
 
-คัดลอก `submit-product-directories-open-source/` ไปยังโฟลเดอร์ Skills ของเอเจนต์ หรืออ้างอิงโฟลเดอร์โดยตรง
+คัดลอก `submit-product-directories-v2-quality/` ไปยังโฟลเดอร์ Skills ของเอเจนต์ หรืออ้างอิงโฟลเดอร์โดยตรง
 
 ```text
-ใช้ $submit-product-directories-open-source ตรวจ URL ของไดเรกทอรีและเตรียม
+ใช้ $submit-product-directories-v2-quality ตรวจ URL ของไดเรกทอรีและเตรียม
 แคมเปญส่งผลิตภัณฑ์ ตรวจสิทธิ์และการยืนยันก่อน ห้ามเผยแพร่ สร้างบัญชี
 ยอมรับข้อตกลง หรือจ่ายเงินหากไม่ได้รับอนุญาต บันทึกหลักฐานที่ตรวจสอบได้
 และรวมงานยืนยันด้วยคนไว้ในคิวเดียว
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` ต้องมีหลักฐานรับเรื่องที่เชื่อถือได้ และ `published` ต้องมีหน้าสาธารณะที่ไม่ใช่ตัวอย่าง ห้ามสรุปว่าสำเร็จจากการคลิกหรือเปลี่ยนหน้าเท่านั้น

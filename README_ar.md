@@ -6,7 +6,7 @@
 
 قد يؤدي الإدراج إلى إشارات أو زيارات إحالة أو روابط خلفية، لكن المشروع **لا يضمن** وضع الرابط أو سمة follow أو القبول أو الفهرسة أو الزيارات أو تحسن الترتيب.
 
-**اللغات:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**اللغات:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## النطاق
 
@@ -37,17 +37,17 @@
 
 ## الاستخدام
 
-انسخ `submit-product-directories-open-source/` إلى مجلد Skills للوكيل أو أشر إلى المجلد مباشرة.
+انسخ `submit-product-directories-v2-quality/` إلى مجلد Skills للوكيل أو أشر إلى المجلد مباشرة.
 
 ```text
-استخدم $submit-product-directories-open-source لمراجعة عناوين الأدلة وإعداد حملة
+استخدم $submit-product-directories-v2-quality لمراجعة عناوين الأدلة وإعداد حملة
 إرسال للمنتج. افحص الأهلية والتحقق أولًا. لا تنشر أو تنشئ حسابًا أو توافق
 على اتفاقيات أو تدفع دون تفويض. احفظ سجلًا قابلًا للتدقيق وقائمة تحقق يدوية واحدة.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 تتطلب `submitted` إثبات استلام موثوقًا، وتتطلب `published` صفحة عامة ليست معاينة. لا تستنتج النجاح من نقرة أو إعادة توجيه فقط.

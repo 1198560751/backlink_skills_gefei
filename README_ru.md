@@ -6,7 +6,7 @@
 
 Карточка в каталоге может дать упоминание, реферальный трафик или обратную ссылку, однако проект **не гарантирует** размещение ссылки, атрибут follow, одобрение, индексацию, трафик или рост позиций.
 
-**Языки:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Языки:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Возможности
 
@@ -37,18 +37,18 @@
 
 ## Использование
 
-Скопируйте `submit-product-directories-open-source/` в каталог Skills агента или укажите папку напрямую.
+Скопируйте `submit-product-directories-v2-quality/` в каталог Skills агента или укажите папку напрямую.
 
 ```text
-Используй $submit-product-directories-open-source для проверки URL и подготовки
+Используй $submit-product-directories-v2-quality для проверки URL и подготовки
 кампании. Сначала проверь допустимость и верификацию. Без разрешения не публикуй,
 не создавай аккаунт, не принимай соглашения и не плати. Сохрани аудируемый
 журнал и одну очередь ручных проверок.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` требует надёжного подтверждения приёма, а `published` — публичной страницы не в режиме предпросмотра. Клик или перенаправление не доказывает успех.

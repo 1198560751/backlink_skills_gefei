@@ -6,7 +6,7 @@ Un flujo recuperable y respaldado por evidencias para enviar productos, software
 
 Un directorio puede generar menciones, tráfico de referencia o backlinks, pero este proyecto **no garantiza** enlaces, atributos follow, aprobación, indexación, tráfico ni mejoras de posicionamiento.
 
-**Idiomas:** [English](README.md) · [简体中文](README_zh.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+**Idiomas:** [English](README_en.md) · [简体中文](README.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
 
 ## Alcance
 
@@ -37,18 +37,18 @@ Un directorio puede generar menciones, tráfico de referencia o backlinks, pero 
 
 ## Uso
 
-Copia `submit-product-directories-open-source/` al directorio Skills del agente o referencia la carpeta directamente.
+Copia `submit-product-directories-v2-quality/` al directorio Skills del agente o referencia la carpeta directamente.
 
 ```text
-Usa $submit-product-directories-open-source para revisar estas URL y preparar
+Usa $submit-product-directories-v2-quality para revisar estas URL y preparar
 una campaña de envío. Comprueba primero elegibilidad y verificación. No publiques,
 crees cuentas, aceptes acuerdos ni pagues sin autorización. Guarda un registro
 auditable y una sola cola de verificaciones manuales.
 ```
 
 ```bash
-python3 submit-product-directories-open-source/scripts/audit_submission_record.py path/to/record.md
-python3 -m unittest discover -s submit-product-directories-open-source/tests
+python3 submit-product-directories-v2-quality/scripts/audit_submission_record.py path/to/record.md
+python3 -m unittest discover -s submit-product-directories-v2-quality/tests
 ```
 
 `submitted` exige un acuse fiable; `published`, una página pública que no sea de vista previa. Nunca deduzcas el éxito solo por un clic o una redirección.
