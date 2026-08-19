@@ -16,7 +16,7 @@
 | [`linkedin-writer`](writer/linkedin-writer/SKILL.md) | LinkedIn Article、newsletter、B2B 长文 | LinkedIn 话题研究、商务深度、专业观点、SEO 设置和发布包 |
 | [`medium-writer`](writer/medium-writer/SKILL.md) | Medium story、Publication 投稿、教程、随笔和案例 | Topic/Publication 匹配、作者视角、叙事结构、AI 披露和发布包 |
 | [`wechat-writer`](writer/wechat-writer/SKILL.md) | 微信公众号长文、教程、观点、热点解读和复盘 | 中文选题、证据账本、移动端阅读、标题摘要、审稿和微信交付包 |
-| [免费外链渠道清单（Markdown）](Free-backlink-list.md) / [Excel](Free-backlink-list.xlsx) | 自己筛选候选目录、社区和内容渠道 | 保留来源状态、批次/日期和实操备注，便于继续核验 |
+| [免费外链渠道清单](Free-backlink-list.md) | 自己筛选候选目录、社区和内容渠道 | 743 个网站分别配有中文简介，并保留批次/日期和实操备注 |
 
 ## 两种外链提交方式
 
@@ -56,10 +56,10 @@
 
 仓库开源了我们整理、尝试或待核验的候选渠道：
 
-- [Free-backlink-list.md](Free-backlink-list.md)：适合直接在 GitHub 查看和搜索；
-- [Free-backlink-list.xlsx](Free-backlink-list.xlsx)：适合筛选、排序和继续维护；
-- 当前源数据包含 **743 条链接记录**，其中 **321 条在原始记录中标记为“已提交”**；
-- 备注保留了提交入口、历史状态、流量观察、收费提示、验证问题和实操结果。
+- [Free-backlink-list.md](Free-backlink-list.md) 包含 **743 个网站或提交入口**；
+- 清单已经移除历史提交状态，避免把其他产品的执行结果误用到新任务；
+- 每个网站都补充了独立的中文简介，说明它大致属于产品目录、AI 工具导航、创业社区、软件评测、内容平台、企业目录或表单入口中的哪一类；
+- 备注保留了批次/日期、流量观察、收费提示、验证问题和历史实操结果。
 
 文件名沿用了团队内部的“Free Backlink List”叫法，但不能把其中每一条都理解为“当前可免费提交”。清单里明确包含已经停服、入口关闭、需要付费、要求互链、只适合发文章、重复或尚未验证的渠道。网站规则和可用性会变化，使用前应让 Codex 重新检查，而不是直接照表群发。
 
@@ -68,7 +68,7 @@
 1. 先按产品类型、目标市场和发布形式筛选候选项；
 2. 用 V2 对前 5–10 个站点做质量和合规检查；
 3. 确认资料、账号和授权后，再决定逐站执行或将合格 URL 交给 V1 批量推进；
-4. 把新的结果记录在独立任务记录中，不要把历史“已提交”状态直接套到自己的产品上。
+4. 把新的结果记录在独立任务记录中，不要把清单备注直接当成当前事实。
 
 ## SEO 写作能力
 
@@ -169,7 +169,6 @@ CAPTCHA、Turnstile、2FA、Passkey、邮箱/手机验证等必须由网站原�
 ├── README_en.md                      # English
 ├── README_*.md                       # 其他语言基础说明
 ├── Free-backlink-list.md             # 免费外链候选清单（Markdown）
-├── Free-backlink-list.xlsx           # 免费外链候选清单（Excel）
 ├── submit-product-directories-v1-batch/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
