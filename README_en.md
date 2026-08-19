@@ -1,5 +1,7 @@
 # Backlink Skills: directory submissions and SEO content with Codex
 
+![Backlink Skills: Codex-powered SEO writing, directory submissions, and backlink channel management](assets/backlink-skills-hero.png)
+
 > An open-source collection maintained by the Flaq AI team from practical product-promotion work. It includes a public backlink candidate list, two product-directory submission skills, a general SEO writing skill, and platform-specific writing skills for LinkedIn, Medium, and WeChat.
 
 This is not a one-click link-spam tool. It does not promise acceptance, dofollow links, indexing, traffic, or rankings. The project shares a more repeatable workflow: inspect destinations first, execute only authorized actions, hand native verification to the user, preserve evidence, and create content for the actual publication instead of syndicating one generic SEO article everywhere.
