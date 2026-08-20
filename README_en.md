@@ -15,17 +15,7 @@ This is not a one-click link-spam tool. It does not promise acceptance, dofollow
 
 ## Project growth
 
-GitHub's repository metadata shows that the project was created on **August 17, 2026**. At the **August 20, 2026 11:58 UTC** snapshot, it had **436 stars** and **162 forks**. The badges above read live GitHub data and update automatically.
-
 [![Recent GitHub Star growth for flaqai/backlink_skills](assets/github-stars-growth.svg)](https://github.com/flaqai/backlink_skills/stargazers)
-
-The chart combines the current star total with `WatchEvent` records from GitHub's latest 300 public repository events. This snapshot contains **239 star events** across an observable window of about **20.6 hours**. Because GitHub now restricts timestamped stargazer listings, the baseline is inferred from the current total minus observed events. It is a recent directional view rather than a complete historical audit.
-
-Maintainers can refresh the chart with:
-
-```bash
-node scripts/update-star-growth-chart.mjs
-```
 
 ## Included workflows
 
@@ -96,8 +86,6 @@ and local image plan. Save the article package and do not publish it.
 ├── README_*.md
 ├── Free-backlink-list.md
 ├── assets/                           # README hero and Star trend chart
-├── scripts/
-│   └── update-star-growth-chart.mjs
 ├── submit-product-directories-v1-batch/
 ├── submit-product-directories-v2-quality/
 └── writer/

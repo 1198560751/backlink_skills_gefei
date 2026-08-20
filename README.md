@@ -15,17 +15,7 @@
 
 ## 项目热度与 Star 增长
 
-GitHub 官方仓库元数据显示，本项目创建于 **2026-08-17**；截至 **2026-08-20 11:58 UTC** 的本次快照，共有 **436 Stars** 和 **162 Forks**。顶部徽章直接读取 GitHub 数据，会随项目状态自动更新。
-
 [![flaqai/backlink_skills 的 GitHub Star 近期增长趋势](assets/github-stars-growth.svg)](https://github.com/flaqai/backlink_skills/stargazers)
-
-趋势图使用 GitHub 官方 REST API 的当前 Star 总数和最近 300 条公开仓库事件生成。在本次可观察的约 **20.6 小时**窗口中，共识别到 **239 条 `WatchEvent`**。由于 GitHub 的 Stargazers 时间列表已限制访问，图中起点通过“当前 Star 总数减去窗口内 WatchEvent 数量”推算；取消 Star 等行为可能造成少量偏差，因此它适合观察近期增长方向，不应当作完整历史审计数据。
-
-维护者可以运行下面的命令重新拉取公开数据并生成图表：
-
-```bash
-node scripts/update-star-growth-chart.mjs
-```
 
 ## 项目里有什么
 
@@ -191,8 +181,6 @@ CAPTCHA、Turnstile、2FA、Passkey、邮箱/手机验证等必须由网站原�
 ├── README_*.md                       # 其他语言基础说明
 ├── Free-backlink-list.md             # 免费外链候选清单（Markdown）
 ├── assets/                           # README 主视觉与 Star 趋势图
-├── scripts/
-│   └── update-star-growth-chart.mjs  # 从 GitHub 公开数据刷新趋势图
 ├── submit-product-directories-v1-batch/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml
