@@ -2,11 +2,30 @@
 
 ![Backlink Skills：Codex 驱动的 SEO 写作、目录提交与外链渠道管理](assets/backlink-skills-hero.png)
 
+[![GitHub Stars](https://img.shields.io/github/stars/flaqai/backlink_skills?style=for-the-badge&logo=github&label=Stars&color=2563eb)](https://github.com/flaqai/backlink_skills/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/flaqai/backlink_skills?style=for-the-badge&logo=github&label=Forks&color=0891b2)](https://github.com/flaqai/backlink_skills/forks)
+[![License](https://img.shields.io/github/license/flaqai/backlink_skills?style=for-the-badge&color=7c3aed)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/flaqai/backlink_skills?style=for-the-badge&color=475569)](https://github.com/flaqai/backlink_skills/commits/main)
+
 > 这是 Flaq AI 团队在实际产品推广过程中整理并持续维护的一套开源工作流，包含外链渠道清单、两种产品目录提交 Skill、通用 SEO 写作 Skill，以及面向 LinkedIn、Medium 和微信公众号的定制写作 Skill。
 
 这个项目不是“一键群发外链”工具，也不承诺收录、Dofollow、流量或排名。我们希望分享的是一套更可复用的做法：让 Codex 先检查渠道，再按授权执行，遇到验证码时交给用户，提交后保留证据；需要内容时，再根据发布平台生成适合当地读者和规则的文章，而不是把同一篇 SEO 文案复制到所有网站。
 
 **语言：** [简体中文（主文档）](README.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+
+## 项目热度与 Star 增长
+
+GitHub 官方仓库元数据显示，本项目创建于 **2026-08-17**；截至 **2026-08-20 11:58 UTC** 的本次快照，共有 **436 Stars** 和 **162 Forks**。顶部徽章直接读取 GitHub 数据，会随项目状态自动更新。
+
+[![flaqai/backlink_skills 的 GitHub Star 近期增长趋势](assets/github-stars-growth.svg)](https://github.com/flaqai/backlink_skills/stargazers)
+
+趋势图使用 GitHub 官方 REST API 的当前 Star 总数和最近 300 条公开仓库事件生成。在本次可观察的约 **20.6 小时**窗口中，共识别到 **239 条 `WatchEvent`**。由于 GitHub 的 Stargazers 时间列表已限制访问，图中起点通过“当前 Star 总数减去窗口内 WatchEvent 数量”推算；取消 Star 等行为可能造成少量偏差，因此它适合观察近期增长方向，不应当作完整历史审计数据。
+
+维护者可以运行下面的命令重新拉取公开数据并生成图表：
+
+```bash
+node scripts/update-star-growth-chart.mjs
+```
 
 ## 项目里有什么
 
@@ -171,6 +190,9 @@ CAPTCHA、Turnstile、2FA、Passkey、邮箱/手机验证等必须由网站原�
 ├── README_en.md                      # English
 ├── README_*.md                       # 其他语言基础说明
 ├── Free-backlink-list.md             # 免费外链候选清单（Markdown）
+├── assets/                           # README 主视觉与 Star 趋势图
+├── scripts/
+│   └── update-star-growth-chart.mjs  # 从 GitHub 公开数据刷新趋势图
 ├── submit-product-directories-v1-batch/
 │   ├── SKILL.md
 │   ├── agents/openai.yaml

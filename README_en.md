@@ -2,11 +2,30 @@
 
 ![Backlink Skills: Codex-powered SEO writing, directory submissions, and backlink channel management](assets/backlink-skills-hero.png)
 
+[![GitHub Stars](https://img.shields.io/github/stars/flaqai/backlink_skills?style=for-the-badge&logo=github&label=Stars&color=2563eb)](https://github.com/flaqai/backlink_skills/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/flaqai/backlink_skills?style=for-the-badge&logo=github&label=Forks&color=0891b2)](https://github.com/flaqai/backlink_skills/forks)
+[![License](https://img.shields.io/github/license/flaqai/backlink_skills?style=for-the-badge&color=7c3aed)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/flaqai/backlink_skills?style=for-the-badge&color=475569)](https://github.com/flaqai/backlink_skills/commits/main)
+
 > An open-source collection maintained by the Flaq AI team from practical product-promotion work. It includes a public backlink candidate list, two product-directory submission skills, a general SEO writing skill, and platform-specific writing skills for LinkedIn, Medium, and WeChat.
 
 This is not a one-click link-spam tool. It does not promise acceptance, dofollow links, indexing, traffic, or rankings. The project shares a more repeatable workflow: inspect destinations first, execute only authorized actions, hand native verification to the user, preserve evidence, and create content for the actual publication instead of syndicating one generic SEO article everywhere.
 
 **Languages:** [简体中文（主文档）](README.md) · [English](README_en.md) · [繁體中文](README_tw.md) · [日本語](README_ja.md) · [한국어](README_ko.md) · [ไทย](README_th.md) · [Tiếng Việt](README_vi.md) · [Bahasa Indonesia](README_id.md) · [Español](README_es.md) · [Français](README_fr.md) · [Deutsch](README_de.md) · [Italiano](README_it.md) · [Português](README_pt.md) · [Русский](README_ru.md) · [العربية](README_ar.md) · [हिन्दी](README_hi.md) · [Türkçe](README_tr.md) · [Nederlands](README_nl.md) · [Polski](README_pl.md)
+
+## Project growth
+
+GitHub's repository metadata shows that the project was created on **August 17, 2026**. At the **August 20, 2026 11:58 UTC** snapshot, it had **436 stars** and **162 forks**. The badges above read live GitHub data and update automatically.
+
+[![Recent GitHub Star growth for flaqai/backlink_skills](assets/github-stars-growth.svg)](https://github.com/flaqai/backlink_skills/stargazers)
+
+The chart combines the current star total with `WatchEvent` records from GitHub's latest 300 public repository events. This snapshot contains **239 star events** across an observable window of about **20.6 hours**. Because GitHub now restricts timestamped stargazer listings, the baseline is inferred from the current total minus observed events. It is a recent directional view rather than a complete historical audit.
+
+Maintainers can refresh the chart with:
+
+```bash
+node scripts/update-star-growth-chart.mjs
+```
 
 ## Included workflows
 
@@ -76,6 +95,9 @@ and local image plan. Save the article package and do not publish it.
 ├── README_en.md
 ├── README_*.md
 ├── Free-backlink-list.md
+├── assets/                           # README hero and Star trend chart
+├── scripts/
+│   └── update-star-growth-chart.mjs
 ├── submit-product-directories-v1-batch/
 ├── submit-product-directories-v2-quality/
 └── writer/
